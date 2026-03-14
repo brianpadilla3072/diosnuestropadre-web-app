@@ -51,7 +51,7 @@ export default function MisionMusica() {
       <Header />
       <main>
         <PageBanner
-          title="MiSion Música"
+          title="Alabanza DNP"
           subtitle="Cantamos de lo que Él hizo, hace y hará"
           tag="Ministerio"
           bgColor="#0d0d1a"
@@ -77,7 +77,7 @@ export default function MisionMusica() {
                   Un equipo ministerial de familias
                 </h2>
                 <p className="text-[#545454] leading-relaxed mb-5 text-lg">
-                  MiSion Música es un equipo ministerial compuesto por familias que anhelan manifestar
+                  El ministerio de alabanza de Dios Nuestro Padre es un equipo ministerial compuesto por familias que anhelan manifestar
                   el Reino eterno de Dios en la tierra a través de la música profética.
                 </p>
                 <p className="text-[#545454] leading-relaxed mb-5">
@@ -177,6 +177,7 @@ export default function MisionMusica() {
               Encontrá más contenido, letras y devocionales de adoración en nuestras redes sociales.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
+              {/* TODO: link YouTube DNP */}
               <a
                 href="https://www.youtube.com/@MiSionCEM"
                 target="_blank"
@@ -188,6 +189,7 @@ export default function MisionMusica() {
                 </svg>
                 YouTube
               </a>
+              {/* TODO: link Instagram DNP */}
               <a
                 href="https://www.instagram.com/mision_instituto/"
                 target="_blank"

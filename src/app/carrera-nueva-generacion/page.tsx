@@ -52,7 +52,7 @@ export default function CarreraNuevaGeneracion() {
         "Aprobación de los padres o tutores",
         "Aval del liderazgo de la iglesia local",
       ]}
-      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/nuevageneracion"
+      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/nuevageneracion" // TODO: URL inscripción DNP
     />
   );
 }

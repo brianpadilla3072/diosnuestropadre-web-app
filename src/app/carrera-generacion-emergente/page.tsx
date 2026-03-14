@@ -57,7 +57,7 @@ export default function CarreraGeneracionEmergente() {
         "Aval pastoral de iglesia local",
         "Ser parte activa de una congregación",
       ]}
-      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/generacionemergente"
+      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/generacionemergente" // TODO: URL inscripción DNP
       whatsappUrl="https://wa.me/5491125853791"
     />
   );

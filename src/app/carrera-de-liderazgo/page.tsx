@@ -68,7 +68,7 @@ export default function CarreraLiderazgo() {
         "Ser miembro activo de una congregación",
         "Mayor de 18 años",
       ]}
-      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/liderazgo"
+      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/liderazgo" // TODO: URL inscripción DNP
     />
   );
 }

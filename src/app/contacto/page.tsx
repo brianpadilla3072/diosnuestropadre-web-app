@@ -94,7 +94,7 @@ export default function Contacto() {
                           required
                           value={form.nombre}
                           onChange={handleChange}
-                          className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#36348E] transition-colors"
+                          className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#FBA007] transition-colors"
                           placeholder="Tu nombre"
                         />
                       </div>
@@ -108,7 +108,7 @@ export default function Contacto() {
                           required
                           value={form.apellido}
                           onChange={handleChange}
-                          className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#36348E] transition-colors"
+                          className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#FBA007] transition-colors"
                           placeholder="Tu apellido"
                         />
                       </div>
@@ -124,7 +124,7 @@ export default function Contacto() {
                         required
                         value={form.email}
                         onChange={handleChange}
-                        className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#36348E] transition-colors"
+                        className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#FBA007] transition-colors"
                         placeholder="tu@email.com"
                       />
                     </div>
@@ -138,7 +138,7 @@ export default function Contacto() {
                         name="nacionalidad"
                         value={form.nacionalidad}
                         onChange={handleChange}
-                        className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#36348E] transition-colors"
+                        className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#FBA007] transition-colors"
                         placeholder="País de residencia"
                       />
                     </div>
@@ -151,7 +151,7 @@ export default function Contacto() {
                         name="tema"
                         value={form.tema}
                         onChange={handleChange}
-                        className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#36348E] transition-colors bg-white"
+                        className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#FBA007] transition-colors bg-white"
                       >
                         {topics.map((t) => (
                           <option key={t.value} value={t.value}>
@@ -171,7 +171,7 @@ export default function Contacto() {
                         rows={5}
                         value={form.mensaje}
                         onChange={handleChange}
-                        className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#36348E] transition-colors resize-none"
+                        className="w-full border border-[#e0e0e0] px-4 py-3 text-[#292929] focus:outline-none focus:border-[#FBA007] transition-colors resize-none"
                         placeholder="Escribí tu consulta aquí..."
                       />
                     </div>
@@ -184,17 +184,18 @@ export default function Contacto() {
                         required
                         checked={form.privacidad}
                         onChange={handleChange}
-                        className="mt-1 w-4 h-4 accent-[#36348E]"
+                        className="mt-1 w-4 h-4 accent-[#FBA007]"
                       />
                       <label htmlFor="privacidad" className="text-sm text-[#545454]">
                         Acepto la política de privacidad y el uso de mis datos para recibir información
-                        del Instituto MiSion.
+                        de Iglesia Dios Nuestro Padre.
                       </label>
                     </div>
 
                     <button
                       type="submit"
-                      className="w-full py-4 bg-[#36348E] text-white font-bold text-sm uppercase tracking-wider hover:bg-[#D14F42] transition-colors"
+                      className="w-full py-4 text-white font-bold text-sm uppercase tracking-wider transition-colors hover:brightness-90"
+                      style={{ background: "var(--brand-gradient)" }}
                     >
                       Enviar consulta
                     </button>
@@ -204,9 +205,9 @@ export default function Contacto() {
 
               {/* Sidebar */}
               <div className="lg:col-span-1 space-y-6">
-                <div className="bg-[#0d0d1a] text-white p-7">
+                <div className="text-white p-7" style={{ background: "var(--brand-gradient)" }}>
                   <h3
-                    className="font-bold text-lg mb-6 uppercase tracking-wide text-sm text-[#FFC53A]"
+                    className="font-bold text-lg mb-6 uppercase tracking-wide text-sm text-white"
                     style={{ fontFamily: "'Work Sans', sans-serif" }}
                   >
                     Datos de contacto
@@ -236,6 +237,7 @@ export default function Contacto() {
                       </svg>
                       <span className="text-gray-300">+54 9 11 7606-0023</span>
                     </a>
+                    {/* TODO: email DNP */}
                     <a
                       href="mailto:info@misioninstituto.com"
                       className="flex items-center gap-3 hover:text-[#FFC53A] transition-colors"

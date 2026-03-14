@@ -8,7 +8,7 @@ const events = [
     id: "intimidad",
     name: "Intimidad Con El Amado",
     tag: "Congreso Anual",
-    tagColor: "#36348E",
+    tagColor: "#FBA007",
     description:
       "Un encuentro anual del cuerpo de Cristo donde año a año hemos visto a miles de personas de diferentes lugares experimentar encuentros profundos con Dios. Un espacio de adoración, intercesión y revelación de la Palabra.",
     href: "https://intimidadconelamado.com",
@@ -30,7 +30,7 @@ const events = [
     id: "generacion",
     name: "Generación Inconmovible",
     tag: "Entrenamiento Intensivo",
-    tagColor: "#36348E",
+    tagColor: "#FBA007",
     description:
       "Un entrenamiento intensivo de cuatro días centrado en los tiempos del fin. Incluye clases de revelación bíblica, adoración, intercesión y ministerio. Diseñado para equipar a una generación que no será sacudida.",
     href: "https://gi-jeps.com",
@@ -55,7 +55,7 @@ export default function Congresos() {
           <div className="max-w-[1260px] mx-auto px-5 md:px-10">
             <div className="max-w-3xl mb-14">
               <p className="text-[#545454] text-lg leading-relaxed">
-                Cada uno de los programas que desarrollamos en MiSion, tanto las diferentes jornadas
+                Cada uno de los programas que desarrollamos en Dios Nuestro Padre, tanto las diferentes jornadas
                 como los congresos y actividades, tienen por objetivo ser parte del entrenamiento en
                 ambientes de intimidad, adoración, enseñanza y revelación.
               </p>
@@ -118,7 +118,7 @@ export default function Congresos() {
         </section>
 
         {/* Newsletter CTA */}
-        <section className="py-16 bg-[#36348E]">
+        <section className="py-16" style={{ background: "var(--brand-gradient)" }}>
           <div className="max-w-[1260px] mx-auto px-5 md:px-10 text-center">
             <h2
               className="font-bold text-white mb-4"
@@ -126,12 +126,12 @@ export default function Congresos() {
             >
               ¿Querés saber cuándo es el próximo evento?
             </h2>
-            <p className="text-[#B7D8EF] mb-8 max-w-xl mx-auto">
+            <p className="text-white/80 mb-8 max-w-xl mx-auto">
               Contactanos para recibir información sobre los próximos congresos, conferencias y jornadas.
             </p>
             <Link
               href="/contacto"
-              className="inline-flex items-center gap-2 px-7 py-3.5 bg-white text-[#36348E] font-bold text-sm uppercase tracking-wider hover:bg-[#FFC53A] hover:text-[#292929] transition-all"
+              className="inline-flex items-center gap-2 px-7 py-3.5 bg-white text-[#FBA007] font-bold text-sm uppercase tracking-wider hover:bg-[#292929] hover:text-white transition-all"
             >
               Contactar
             </Link>

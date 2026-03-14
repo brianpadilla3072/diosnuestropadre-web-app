@@ -36,8 +36,8 @@ export const courses: Course[] = [
     coverImage: null,
     instructor: {
       name: "Mariano Sennewald",
-      role: "Fundador del Instituto MiSion",
-      bio: "Mariano Sennewald es el fundador del Instituto MiSion y pastor en la Iglesia El Encuentro en Buenos Aires, Argentina. Es autor de varios libros sobre liderazgo espiritual e intimidad con Dios, y viaja predicando a diferentes naciones. Está casado con Analía y tienen dos hijas.",
+      role: "Fundador de Iglesia Dios Nuestro Padre",
+      bio: "Mariano Sennewald es el fundador de Iglesia Dios Nuestro Padre y pastor en la Iglesia El Encuentro en Buenos Aires, Argentina. Es autor de varios libros sobre liderazgo espiritual e intimidad con Dios, y viaja predicando a diferentes naciones. Está casado con Analía y tienen dos hijas.",
       photo: null,
     },
     keyPoints: [
@@ -68,7 +68,7 @@ export const courses: Course[] = [
     faq: [
       {
         question: "¿Puedo acceder al curso individualmente?",
-        answer: "Este curso está disponible exclusivamente para suscriptores de la Membresía MiSion Online. Con la membresía tenés acceso a todos los cursos disponibles en la plataforma.",
+        answer: "Este curso está disponible exclusivamente para suscriptores de la Membresía DNP Online. Con la membresía tenés acceso a todos los cursos disponibles en la plataforma.",
       },
       {
         question: "¿Por cuánto tiempo tengo acceso?",
@@ -79,7 +79,7 @@ export const courses: Course[] = [
         answer: "No, el curso es completamente a tu ritmo. No hay fechas límite ni clases en vivo. Podés comenzar en cualquier momento.",
       },
     ],
-    externalLink: "https://www.misiononline.com/p/liderazgo-espiritual1",
+    externalLink: "https://www.misiononline.com/p/liderazgo-espiritual1", // TODO: URL de DNP
   },
   {
     slug: "apocalipsis",
@@ -91,8 +91,8 @@ export const courses: Course[] = [
     coverImage: null,
     instructor: {
       name: "Mariano Sennewald",
-      role: "Fundador del Instituto MiSion",
-      bio: "Mariano Sennewald es el fundador del Instituto MiSion y pastor en la Iglesia El Encuentro en Buenos Aires, Argentina. Es autor de varios libros sobre liderazgo espiritual e intimidad con Dios.",
+      role: "Fundador de Iglesia Dios Nuestro Padre",
+      bio: "Mariano Sennewald es el fundador de Iglesia Dios Nuestro Padre y pastor en la Iglesia El Encuentro en Buenos Aires, Argentina. Es autor de varios libros sobre liderazgo espiritual e intimidad con Dios.",
       photo: null,
     },
     keyPoints: [
@@ -123,14 +123,14 @@ export const courses: Course[] = [
       },
       {
         question: "¿Puedo acceder sin membresía?",
-        answer: "Este curso es exclusivo para suscriptores de la Membresía MiSion Online ($15/mes con acceso ilimitado a todos los cursos).",
+        answer: "Este curso es exclusivo para suscriptores de la Membresía DNP Online ($15/mes con acceso ilimitado a todos los cursos).",
       },
       {
         question: "¿Incluye material descargable?",
         answer: "Sí, incluye materiales PDF complementarios para acompañar cada clase.",
       },
     ],
-    externalLink: "https://www.misiononline.com",
+    externalLink: "https://www.misiononline.com", // TODO: URL de DNP
   },
   {
     slug: "sanidad-interior",
@@ -142,8 +142,8 @@ export const courses: Course[] = [
     coverImage: null,
     instructor: {
       name: "Analía Sennewald",
-      role: "Pastora e Instituto MiSion",
-      bio: "Analía Sennewald es pastora y docente del Instituto MiSion. Con años de experiencia en consejería y acompañamiento espiritual, guía a personas hacia la libertad y sanidad interior a través de la Palabra de Dios.",
+      role: "Pastora e Iglesia Dios Nuestro Padre",
+      bio: "Analía Sennewald es pastora y docente de Iglesia Dios Nuestro Padre. Con años de experiencia en consejería y acompañamiento espiritual, guía a personas hacia la libertad y sanidad interior a través de la Palabra de Dios.",
       photo: null,
     },
     keyPoints: [
@@ -176,10 +176,10 @@ export const courses: Course[] = [
       },
       {
         question: "¿Está disponible con membresía?",
-        answer: "Sí, es parte de la Membresía MiSion Online junto a todos los demás cursos disponibles.",
+        answer: "Sí, es parte de la Membresía DNP Online junto a todos los demás cursos disponibles.",
       },
     ],
-    externalLink: "https://www.misiononline.com",
+    externalLink: "https://www.misiononline.com", // TODO: URL de DNP
   },
   {
     slug: "desafio-selah",
@@ -190,9 +190,9 @@ export const courses: Course[] = [
     accessType: "membership",
     coverImage: null,
     instructor: {
-      name: "MiSion Instituto",
+      name: "Iglesia Dios Nuestro Padre",
       role: "Equipo Docente",
-      bio: "El equipo docente del Instituto MiSion está compuesto por pastores, líderes y maestros con años de experiencia en formación ministerial y vida espiritual.",
+      bio: "El equipo docente de Iglesia Dios Nuestro Padre está compuesto por pastores, líderes y maestros con años de experiencia en formación ministerial y vida espiritual.",
       photo: null,
     },
     keyPoints: [
@@ -224,25 +224,25 @@ export const courses: Course[] = [
       },
       {
         question: "¿Qué necesito para empezar?",
-        answer: "Solo una membresía activa de MiSion Online y disposición de corazón para el encuentro con Dios.",
+        answer: "Solo una membresía activa de DNP Online y disposición de corazón para el encuentro con Dios.",
       },
     ],
-    externalLink: "https://www.misiononline.com",
+    externalLink: "https://www.misiononline.com", // TODO: URL de DNP
   },
   {
     slug: "carrera-ministerial-online",
     title: "CARRERA MINISTERIAL ONLINE",
     subtitle: "Tres años de formación ministerial completa, desde donde estés.",
     description:
-      "La Carrera Ministerial Online de Instituto MiSion es el programa de formación más completo disponible en la plataforma. Durante tres años, recibirás el mismo contenido que se enseña en las aulas presenciales de Monte Grande, Buenos Aires, ahora disponible para todo el mundo.",
+      "La Carrera Ministerial Online de Iglesia Dios Nuestro Padre es el programa de formación más completo disponible en la plataforma. Durante tres años, recibirás el mismo contenido que se enseña en las aulas presenciales de Monte Grande, Buenos Aires, ahora disponible para todo el mundo.",
     accessType: "paid",
     price: "Consultar",
-    coverImage: "https://misioninstituto.com/wp-content/uploads/2023/09/MiSion-cem-_donar-linea-1024x9.jpg",
+    coverImage: "https://misioninstituto.com/wp-content/uploads/2023/09/MiSion-cem-_donar-linea-1024x9.jpg", // TODO: imagen DNP
     instructor: {
-      name: "MiSion Instituto",
+      name: "Iglesia Dios Nuestro Padre",
       role: "Equipo Docente",
-      bio: "El equipo docente del Instituto MiSion está compuesto por pastores, líderes y maestros con años de experiencia en formación ministerial. Fundado por Mariano Sennewald, el instituto ha formado a miles de líderes en Argentina y las naciones.",
-      photo: "https://misioninstituto.com/wp-content/uploads/2020/11/logo-b-s.png",
+      bio: "El equipo docente de Iglesia Dios Nuestro Padre está compuesto por pastores, líderes y maestros con años de experiencia en formación ministerial. Fundado por Mariano Sennewald, el instituto ha formado a miles de líderes en Argentina y las naciones.",
+      photo: "https://misioninstituto.com/wp-content/uploads/2020/11/logo-b-s.png", // TODO: logo DNP
     },
     keyPoints: [
       "Tres años de formación ministerial completa",
@@ -273,10 +273,10 @@ export const courses: Course[] = [
       },
       {
         question: "¿Recibo algún certificado?",
-        answer: "Sí, al completar los tres años recibirás el Certificado Ministerial del Instituto MiSion.",
+        answer: "Sí, al completar los tres años recibirás el Certificado Ministerial de Iglesia Dios Nuestro Padre.",
       },
     ],
-    externalLink: "https://www.misiononline.com",
+    externalLink: "https://www.misiononline.com", // TODO: URL de DNP
   },
 ];
 

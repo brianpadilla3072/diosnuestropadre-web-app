@@ -5,9 +5,10 @@ const courses = [
   {
     id: "membresia",
     title: "MEMBRESÍA",
-    description: "Acceso ilimitado a todos los cursos de MiSion Online.",
+    description: "Acceso ilimitado a todos los cursos de DNP Online.",
     price: "$15/mensual",
-    instructor: "MiSion Instituto",
+    instructor: "Iglesia Dios Nuestro Padre",
+    // TODO: reemplazar image con imagen de DNP
     image: "https://misioninstituto.com/wp-content/uploads/2023/12/ab8d6589-c7d9-49ab-81e9-f882ac137557-1024x576.jpg",
     href: "/auth/registro",
     featured: true,
@@ -17,7 +18,7 @@ const courses = [
     title: "CARRERA MINISTERIAL ONLINE",
     description: "Entrenamiento de tres años online con contenido ministerial completo.",
     price: null,
-    instructor: "MiSion Instituto",
+    instructor: "Iglesia Dios Nuestro Padre",
     image: null,
     href: "/carrera-ministerial-online",
   },
@@ -53,7 +54,7 @@ const courses = [
     title: "DESAFÍO SELAH",
     description: "Un desafío espiritual de 21 días.",
     price: null,
-    instructor: "MiSion Instituto",
+    instructor: "Iglesia Dios Nuestro Padre",
     image: null,
     href: "/cursos/desafio-selah",
   },
@@ -67,7 +68,7 @@ export default function MisionOnline() {
         <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-12 gap-4">
           <div>
             <span className="section-tag">Plataforma Digital</span>
-            <h2 className="heading-lg">MiSion Online</h2>
+            <h2 className="heading-lg">DNP Online</h2>
             <p className="mt-3 text-lg max-w-xl">
               Transfórmate en un mensajero del Reino de los Cielos en tu comunidad y ciudad.
             </p>
@@ -89,7 +90,7 @@ export default function MisionOnline() {
               className="card program-card group flex flex-col overflow-hidden"
             >
               {/* Image */}
-              <div className="relative h-44 overflow-hidden" style={{ backgroundColor: "var(--primary)" }}>
+              <div className="relative h-44 overflow-hidden" style={{ background: "var(--brand-gradient)" }}>
                 {course.image ? (
                   <Image
                     src={course.image}

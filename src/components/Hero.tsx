@@ -5,6 +5,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background video */}
+      {/* TODO: video DNP */}
       <video
         className="hero-video"
         autoPlay

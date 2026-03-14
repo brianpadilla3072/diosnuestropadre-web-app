@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = getCourseBySlug(slug);
   if (!course) return {};
   return {
-    title: `${course.title} – Instituto MiSion`,
+    title: `${course.title} – Dios Nuestro Padre`,
     description: course.description,
   };
 }
@@ -111,7 +111,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                     <span className="text-[#B7D8EF]/30 text-8xl font-black leading-none">
                       {course.title.charAt(0)}
                     </span>
-                    <span className="text-[#B7D8EF]/50 text-sm uppercase tracking-widest">MiSion Online</span>
+                    <span className="text-[#B7D8EF]/50 text-sm uppercase tracking-widest">DNP Online</span>
                   </div>
                 )}
                 {/* Play overlay */}
@@ -353,6 +353,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
         {/* Contact footer */}
         <div className="bg-[#111] text-center py-8">
           <p className="text-gray-400 text-sm">
+            {/* TODO: email DNP */}
             ¿Preguntas?{" "}
             <a href="mailto:info.misiononline@gmail.com" className="text-[#B7D8EF] hover:text-white transition-colors">
               info.misiononline@gmail.com

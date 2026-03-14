@@ -27,7 +27,7 @@ const plans = [
     description: "Cursos gratuitos disponibles",
     features: [
       "Acceso a cursos gratuitos",
-      "Comunidad MiSion",
+      "Comunidad DNP",
       "Recursos básicos",
     ],
     highlighted: false,
@@ -53,9 +53,10 @@ export default function RegistroPage() {
       {/* Header */}
       <header className="bg-[#1a1a2e] py-4 px-5 flex items-center justify-between">
         <Link href="/">
+          {/* TODO: reemplazar src con logo de DNP */}
           <Image
             src="https://misioninstituto.com/wp-content/uploads/2020/12/cropped-MiSion-logo-blanco.png"
-            alt="Instituto MiSion"
+            alt="Dios Nuestro Padre"
             width={130}
             height={28}
             className="h-7 w-auto"
@@ -95,7 +96,7 @@ export default function RegistroPage() {
                 className="font-bold text-[#292929] text-3xl mb-2"
                 style={{ fontFamily: "'Work Sans', sans-serif" }}
               >
-                Bienvenido a MiSion Online
+                Bienvenido a Dios Nuestro Padre
               </h1>
               <p className="text-[#545454]">
                 Transfórmate en un mensajero del Reino de los Cielos
@@ -269,8 +270,8 @@ export default function RegistroPage() {
 
       <footer className="text-center py-6">
         <p className="text-gray-400 text-xs">
-          © {new Date().getFullYear()} MiSion Online ·{" "}
-          <Link href="/" className="hover:text-[#36348E] transition-colors">Instituto MiSion</Link>
+          © {new Date().getFullYear()} DNP ·{" "}
+          <Link href="/" className="hover:text-[#36348E] transition-colors">Iglesia Dios Nuestro Padre</Link>
         </p>
       </footer>
     </div>

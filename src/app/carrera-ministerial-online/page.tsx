@@ -8,9 +8,9 @@ export default function CarreraMinisterialOnline() {
       tag="Carrera Online – Internacional"
       bannerColor="#0d0d1a"
       accentColor="#B7D8EF"
-      tagline="Toda la formación del Instituto MiSion desde cualquier lugar del mundo"
+      tagline="Toda la formación de Iglesia Dios Nuestro Padre desde cualquier lugar del mundo"
       description="La Carrera Ministerial Online ofrece un sistema de entrenamiento integral de tres años diseñado para el crecimiento espiritual y el desarrollo ministerial. Disponible para estudiantes de todo el mundo, con clases en vivo y contenido pre-grabado."
-      extraInfo="Al finalizar los tres años, los graduados reciben un diplomado de MiSion CEM. Nota: la carrera no está acreditada por el Ministerio de Educación de la Argentina y no otorga créditos universitarios."
+      extraInfo="Al finalizar los tres años, los graduados reciben un diplomado de DNP. Nota: la carrera no está acreditada por el Ministerio de Educación de la Argentina y no otorga créditos universitarios."
       duration="3 años (6 semestres)"
       modality="100% Online"
       schedule="Clases en vivo: Martes 19hs y Sábados 12hs (AR) | Pre-grabadas: Sábados desde 8hs"
@@ -71,7 +71,7 @@ export default function CarreraMinisterialOnline() {
         "Conexión a internet estable",
         "Disponible para estudiantes de todo el mundo",
       ]}
-      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/online"
+      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/online" // TODO: URL inscripción DNP
     />
   );
 }

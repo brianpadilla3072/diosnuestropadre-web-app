@@ -64,7 +64,7 @@ export default function CareerPage({
         />
 
         {/* Info bar */}
-        <div className="bg-[#36348E] text-white">
+        <div className="text-white" style={{ background: "var(--brand-gradient)" }}>
           <div className="max-w-[1260px] mx-auto px-5 md:px-10 py-5">
             <div className="flex flex-wrap gap-6 md:gap-12 text-sm">
               <div className="flex items-center gap-2">
@@ -184,7 +184,7 @@ export default function CareerPage({
                           <div key={i} className="text-[#545454] text-sm flex items-start gap-2">
                             <span
                               className="w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"
-                              style={{ backgroundColor: "#36348E" }}
+                              style={{ backgroundColor: "var(--primary)" }}
                             />
                             {subject}
                           </div>
@@ -227,7 +227,7 @@ export default function CareerPage({
                 {/* CTA */}
                 <div
                   className="p-7 text-white"
-                  style={{ backgroundColor: bannerColor !== "#0d0d1a" ? bannerColor : "#36348E" }}
+                  style={{ backgroundColor: bannerColor !== "#0d0d1a" ? bannerColor : "var(--primary)" }}
                 >
                   <h3
                     className="font-bold text-xl mb-3"
@@ -243,7 +243,7 @@ export default function CareerPage({
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full text-center py-3 font-bold text-sm uppercase tracking-wider bg-white hover:bg-[#FFC53A] transition-colors mb-3"
-                    style={{ color: "#36348E" }}
+                    style={{ color: "var(--primary)" }}
                   >
                     Inscribirme ahora
                   </a>
@@ -273,7 +273,7 @@ export default function CareerPage({
                       <span
                         key={pillar}
                         className="text-xs font-semibold px-3 py-1.5 uppercase tracking-wide"
-                        style={{ backgroundColor: "#36348E20", color: "#36348E" }}
+                        style={{ backgroundColor: "rgba(45,43,122,0.1)", color: "var(--primary)" }}
                       >
                         {pillar}
                       </span>
@@ -298,15 +298,13 @@ export default function CareerPage({
               Contactanos y te contamos todo sobre la carrera, aranceles y proceso de inscripción.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link
-                href="/contacto"
-                className="inline-flex items-center gap-2 px-7 py-3.5 border-2 border-[#36348E] text-[#36348E] font-semibold text-sm uppercase tracking-wider hover:bg-[#36348E] hover:text-white transition-all"
-              >
+              <Link href="/contacto" className="btn btn-secondary">
                 Formulario de contacto
               </Link>
+              {/* TODO: email DNP */}
               <a
                 href="mailto:info@misioninstituto.com"
-                className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#36348E] text-white font-semibold text-sm uppercase tracking-wider hover:bg-[#D14F42] transition-all"
+                className="btn btn-primary"
               >
                 info@misioninstituto.com
               </a>

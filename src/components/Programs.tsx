@@ -65,7 +65,7 @@ const programs = [
     id: "online",
     title: "Carrera Ministerial",
     subtitle: "Online",
-    description: "Toda la formación del Instituto MiSion desde cualquier lugar del mundo. Tres años de entrenamiento ministerial online.",
+    description: "Toda la formación de Iglesia Dios Nuestro Padre desde cualquier lugar del mundo. Tres años de entrenamiento ministerial online.",
     icon: "💻",
     accentColor: "#4A90D9",
     href: "/carrera-ministerial-online",
@@ -149,20 +149,21 @@ export default function Programs() {
           ))}
         </div>
 
-        {/* MiSion Online CTA */}
+        {/* DNP Online CTA */}
         <div className="mt-12 cta-section p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h3
               className="font-bold text-2xl md:text-3xl mb-2 text-white"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              MiSion Online
+              DNP Online
             </h3>
             <p className="text-sm" style={{ color: "var(--accent-sky)" }}>
               Cursos, carreras y membresía para entrenar desde donde estés en el mundo.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+            {/* TODO: URL de DNP */}
             <a
               href="https://www.misiononline.com"
               target="_blank"
@@ -171,6 +172,7 @@ export default function Programs() {
             >
               Ver cursos online
             </a>
+            {/* TODO: URL de DNP */}
             <a
               href="https://www.misiononline.com/p/membresia"
               target="_blank"

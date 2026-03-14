@@ -33,13 +33,13 @@ export default function Donaciones() {
         <PageBanner
           title="Donaciones"
           subtitle="Tu generosidad hace posible el entrenamiento de una generación"
-          tag="Colaborá con MiSion"
+          tag="Colaborá con DNP"
           bgColor="#0d0d1a"
           accentColor="#FFC53A"
         />
 
         {/* Verse */}
-        <section className="py-12 bg-[#36348E]">
+        <section className="py-12" style={{ background: "var(--brand-gradient)" }}>
           <div className="max-w-[1260px] mx-auto px-5 md:px-10 text-center">
             <blockquote
               className="text-white text-xl md:text-2xl font-bold italic"
@@ -74,11 +74,11 @@ export default function Donaciones() {
               {projects.map((project) => (
                 <div
                   key={project.title}
-                  className="border border-[#e0e0e0] p-7 hover:border-[#36348E] transition-colors group"
+                  className="border border-[#e0e0e0] p-7 hover:border-[#FBA007] transition-colors group"
                 >
                   <div className="text-4xl mb-4">{project.icon}</div>
                   <h3
-                    className="font-bold text-[#292929] mb-3 group-hover:text-[#36348E] transition-colors"
+                    className="font-bold text-[#292929] mb-3 group-hover:text-[#FBA007] transition-colors"
                     style={{ fontFamily: "'Work Sans', sans-serif", fontSize: "17px" }}
                   >
                     {project.title}
@@ -91,7 +91,7 @@ export default function Donaciones() {
             {/* Donation methods */}
             <div className="grid md:grid-cols-2 gap-8">
               {/* Argentina */}
-              <div className="border border-[#e0e0e0] p-8" style={{ borderTopColor: "#36348E", borderTopWidth: "3px" }}>
+              <div className="border border-[#e0e0e0] p-8" style={{ borderTopColor: "#FBA007", borderTopWidth: "3px" }}>
                 <h3
                   className="font-bold text-[#292929] mb-6"
                   style={{ fontFamily: "'Work Sans', sans-serif", fontSize: "22px" }}
@@ -99,6 +99,7 @@ export default function Donaciones() {
                   🇦🇷 Argentina
                 </h3>
                 <div className="space-y-5">
+                  {/* TODO: links de pago DNP */}
                   <a
                     href="https://link.mercadopago.com.ar/misioncem"
                     target="_blank"
@@ -132,7 +133,8 @@ export default function Donaciones() {
                       </div>
                       <div className="flex justify-between">
                         <span className="font-medium">Alias:</span>
-                        <span className="font-mono font-bold text-[#36348E]">MISION.CEM</span>
+                        {/* TODO: alias DNP */}
+                        <span className="font-mono font-bold" style={{ color: "var(--primary)" }}>MISION.CEM</span>
                       </div>
                     </div>
                   </div>
@@ -148,6 +150,7 @@ export default function Donaciones() {
                   🌍 Internacional
                 </h3>
                 <div className="space-y-5">
+                  {/* TODO: links de pago DNP */}
                   <a
                     href="https://donate.stripe.com/mision"
                     target="_blank"
@@ -173,9 +176,10 @@ export default function Donaciones() {
                     <p className="text-[#545454] text-sm mb-3">
                       Si sos argentino y querés donar en dólares, contactanos directamente.
                     </p>
+                    {/* TODO: email DNP */}
                     <a
                       href="mailto:adm.mision@gmail.com"
-                      className="text-[#36348E] font-semibold text-sm hover:text-[#D14F42] transition-colors"
+                      className="text-[#FBA007] font-semibold text-sm hover:text-[#D14F42] transition-colors"
                     >
                       adm.mision@gmail.com
                     </a>
@@ -185,7 +189,7 @@ export default function Donaciones() {
             </div>
 
             {/* Special donation */}
-            <div className="mt-8 bg-[#0d0d1a] text-white p-8 md:p-10">
+            <div className="mt-8 text-white p-8 md:p-10" style={{ background: "var(--brand-gradient)" }}>
               <div className="flex flex-col md:flex-row items-center gap-6">
                 <div className="text-4xl">🏛️</div>
                 <div>
@@ -195,14 +199,15 @@ export default function Donaciones() {
                   >
                     Donación especial: Nuevo Campus
                   </h3>
-                  <p className="text-[#E8D7B9] text-sm leading-relaxed">
-                    Estamos creyendo a Dios por un nuevo campus para MiSion. Si querés ser parte de
+                  <p className="text-white text-sm leading-relaxed">
+                    Estamos creyendo a Dios por un nuevo campus para Dios Nuestro Padre. Si querés ser parte de
                     este sueño, existe un fondo exclusivo para contribuir a esta visión.
                   </p>
                 </div>
+                {/* TODO: email DNP */}
                 <a
                   href="mailto:info@misioninstituto.com"
-                  className="flex-shrink-0 px-6 py-3 border-2 border-[#FFC53A] text-[#FFC53A] font-bold text-sm uppercase tracking-wider hover:bg-[#FFC53A] hover:text-[#0d0d1a] transition-colors"
+                  className="flex-shrink-0 px-6 py-3 border-2 border-white text-white font-bold text-sm uppercase tracking-wider hover:bg-white hover:text-[#FBA007] transition-colors"
                 >
                   Consultar
                 </a>

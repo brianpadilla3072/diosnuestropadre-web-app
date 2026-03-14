@@ -60,7 +60,7 @@ export default function CarreraMedias() {
         "Ser miembro activo de una congregación",
         "Mayor de 18 años",
       ]}
-      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/medios"
+      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/medios" // TODO: URL inscripción DNP
     />
   );
 }

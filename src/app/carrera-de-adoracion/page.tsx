@@ -75,7 +75,7 @@ export default function CarreraAdoracion() {
         "Ser miembro activo de una congregación",
         "Mayor de 18 años",
       ]}
-      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/adoracion"
+      registrationUrl="https://misioninstituto.quinttos.com/index.php/inscripcion/online/adoracion" // TODO: URL inscripción DNP
     />
   );
 }
